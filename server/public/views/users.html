@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="registerApp">
+  <head>
+    <meta charset="utf-8">
+    <title>REGISTER</title>
+  </head>
+  <body ng-controller="userController">
+    <form action="/register" method="post">
+      <div>
+        <label for="username">USERNAME:</label>
+        <input type="text" name="username" id="username" />
+      </div>
+      <div>
+        <label for="password">PASSWORD:</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <input type="submit" value="Register" />
+      </div>
+    </form>
+  </body>
+</html>

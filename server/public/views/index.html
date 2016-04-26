@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="passportApp">
+  <head>
+    <meta charset="utf-8">
+    <title>PASSPORT PRACTICE</title>
+  </head>
+  <body ng-controller="passportController">
+    <form action="/" method="post">
+      <div>
+        <label for="username">USERNAME:</label>
+        <input type="text" name="username" id="username" />
+      </div>
+      <div>
+        <label for="password">PASSWORD:</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <input type="submit" value="Log In" />
+        <a href="/register">REGISTER</a>
+      </div>
+    </form>
+  </body>
+</html>
